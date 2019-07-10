@@ -1,0 +1,44 @@
+p {
+    text-rendering: geometricPrecision;
+    margin: 0px;
+
+}
+
+body {
+    background-color: #fff;
+    margin: 100px;
+    height: 100%;
+    max-height: 100%;
+    font-family: "Merriweather", serif;
+    letter-spacing: 0.01rem;
+    font-size: 1.8rem;
+    line-height: 1.75em;
+    color: #3A4145; }
+h1 {
+    font-family: "Merriweather", serif;
+    letter-spacing: 0.01rem;
+    font-size: 1.8rem;
+    line-height: 1.75em;
+    color: #3A4145;
+}
+
+h2 {
+    font-family: "Merriweather", serif;
+    letter-spacing: 0.01rem;
+    font-size: 1.8rem;
+    line-height: 1.75em;
+    color: #3A4145;
+}
+
+div {
+    margin-right: 50px;
+    width: 624px;
+    font-family: "Merriweather", serif;
+    letter-spacing: 0.01rem;
+    font-size: 1.0rem;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
