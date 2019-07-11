@@ -1,0 +1,54 @@
+/*Select the body and give it a background color of #111111.*/
+body {
+    background-color: #111111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    width: 80%;
+    margin-left: 80px;
+}
+
+/*Select the h1 tag, change the font color to #E2E80F, center the text, and make it a bit larger than the default.
+
+*/
+h1 {
+    color: #E2E80F;
+    text-align: center;
+    font-size: larger
+    font-family: 'Mountains of Christmas', cursive;
+}
+/* select the paragraphs, change the font-color to , make their font-size larger, and give them some larger separation between each line;*/
+
+p {
+    color: #eeeeee;
+    font-size: larger;
+    line-height: 30px;
+}
+
+/* Find a way to select all span tags inside the paragraph with the class of credits and make them look like anchor links (i.e. underline and colored blue, or another color that is easier to read on the dark background like #49DAFF). 
+***You could also optionally figure out how to make the cursor change to the little hand when the user is hovering over it to mimic even more closely a real link. */
+
+p > .credits {
+    text-decoration: underline;
+    color:#49DAFF;
+}
+
+p > .credits:hover{
+    cursor: pointer;
+}
+
+/* Select the "film-description" ID, make the font a little smaller and change it to an italics style. */
+
+#film-description {
+    font-size: smaller;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: starfont
+    src: url( '.assets/starfont.ttf'                       )
+
+}
+/* color.adobe.com 
+
+
+
