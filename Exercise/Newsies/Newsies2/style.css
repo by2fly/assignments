@@ -1,0 +1,22 @@
+.newspaper{
+    column-count: 3;
+    text-align: justify;
+    display: inline-block;
+}
+.newspaper h1{
+    column-span: all;
+    text-align: center;
+}
+.banner {
+    column-span: all;
+    border-style: solid;
+}
+/*.page {
+    display: inline-block;
+}
+*/
+
+/* .newspaper img{
+
+
+} */

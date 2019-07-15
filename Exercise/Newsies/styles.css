@@ -3,32 +3,45 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 34px;
     text-align: center;
-
+    width: 80%;
+    margin: auto;
+    
 }
 h4 {
     text-align: left;
+    margin: auto;
+
 
 }
-body{
+/* body{
     margin: 10px;
     text-align: justify;
-
+    width: 80%; 
 }
+*/
 .newspaper {
     column-count: 3;
     column-gap: 20px;
     column-rule-style: solid;
     column-rule-width: 1px;
     text-indent: 10%;
- 
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    width: 80%;
+
+}
+.banner {
+    margin: auto;
+
 }
 
 
-
 .subhead {
-    width: 100%;
+    width: auto;
     text-align: center;
     border-style: solid;
     border-width: 1px;
     border-color: black;
+    border-width: 80%;
 }

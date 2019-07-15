@@ -1,0 +1,82 @@
+/* CSS Flags
+Build the following flags in pure HTML and CSS, no images allowed.
+
+France
+Germany
+Madagascar
+Switzerland
+Sweden
+Gambia
+Tonga
+Japan
+Greece
+Niger
+Maldives
+Belize (just kidding)*/
+
+/*  body {
+    background: #ccc;
+
+  }
+  
+#french-flag {
+   padding: 33.33%;
+   background-color: white;
+   position: relative;
+   border: 1px solid #bbbbbb;
+   line-height: 50px;
+   width: 99px;
+   height: 50px;
+   display: inline-block;
+}
+#french-flag:before {
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color: #0000ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+#french-flag:after {
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color: #ff0000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+} */
+
+/** {
+    margin: 0;
+    padding: 0;
+
+} */
+
+#french {
+    margin: 0;
+    padding: 0;
+    /*display: inline-block;*/
+}
+#french.bar1 {
+    width: 900px; 
+    height: 600px;
+    background-color: red;
+}
+#french.bar2 {
+    width: 600px; 
+    height: 600px;
+    background-color: white;
+
+}
+#french.bar3 {
+    width: 300px; 
+    height: 600px;
+    background-color: blue;
+
+}
+
+

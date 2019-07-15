@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;   /* needed for ALL */
+}
+
+.box1 {
+    height: 140px;
+    width: 800px;
+    background-color:  #F5C6D6;
+    margin-top: 50px;
+    margin-left: 100;
+    margin-right: 25%;
+}
+
+.box2  {
+    height: 140px;
+    width: 197px;
+    background-color: #EE2E84;
+    margin-top: 15px;
+    display: inline-block; 
+
+}
+.box3 {
+    height: 140px;
+    width: 400px;
+    background-color: #85CFD8;
+    margin-top: 15px;
+    display: inline-block;
+}
+.box4 {
+    height: 140px;
+    width: 600px;
+    background-color: #8DC63F;
+    margin-top: 15px;
+    display: inline-block;
+
+}
+.box5 {
+    height: 140px;
+    width: 200px;
+    background-color: #e76e34;
+    margin-top: 15px;
+    display: inline-block;
+
+
+}
