@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Calculator</title>
+
+</head>
+<div id='add'>
+    <form action="adds"></form>
+        <input id='firstNum' type="number"> A number
+        <input id='secondNum' type="number">Another number
+        <br><br>
+        <button onclick="getTotal()">Add</button>
+        <input readonly id='addTotal' type="number"> Your Addition Total
+</div>
+<br>
+<br>
+
+<div id='subtract'>
+    <form action="substracts"></form>
+    <input id='firstSubNum' type="number"> Number 1
+    <input id='secondSubNum' type="number"> Number 2
+    <br><br>
+    <button onclick="getSubTotal()">Substract</button>
+    <input readonly id='addSubTotal' type="number"> Your Substraction Total</div>
+<br>
+<br>
+<div id='multiply'>
+    <form action="multiplies"></form>
+    <input id='firstMultiNum' type="number"> Number 1
+    <input id='secondMultiNum' type="number"> Number 2
+    <br><br>
+    <button onclick="getMultiTotal()">Multiply</button>
+    <input id='addMultiTotal' type="number"> Your Multiplication Total</div>
+
+<body>
+    <script src="app.js"></script>
+</body>
+</html>

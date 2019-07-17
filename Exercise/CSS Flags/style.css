@@ -1,75 +1,29 @@
-/* CSS Flags
-Build the following flags in pure HTML and CSS, no images allowed.
 
-France
-Germany
-Madagascar
-Switzerland
-Sweden
-Gambia
-Tonga
-Japan
-Greece
-Niger
-Maldives
-Belize (just kidding)*/
 
-/*  body {
-    background: #ccc;
-
-  }
-  
-#french-flag {
-   padding: 33.33%;
-   background-color: white;
-   position: relative;
-   border: 1px solid #bbbbbb;
-   line-height: 50px;
-   width: 99px;
-   height: 50px;
-   display: inline-block;
+body {
+   font-size: 0;
 }
-#french-flag:before {
-    content: "";
-    width: 33.33%;
-    height: 100%;
-    background-color: #0000ff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 4;
-}
-#french-flag:after {
-    content: "";
-    width: 33.33%;
-    height: 100%;
-    background-color: #ff0000;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 4;
-} */
-
-/** {
-    margin: 0;
-    padding: 0;
-
-} */
 
 #french {
     margin: 0;
     padding: 0;
-    /*display: inline-block;*/
+    display: inline-block;
+    /* box-sizing: border-box;
+    overflow: hidden;
+    position:  */
+
 }
 #french.bar1 {
-    width: 900px; 
+    width: 300px; 
     height: 600px;
     background-color: red;
 }
 #french.bar2 {
-    width: 600px; 
+    width: 300px; 
     height: 600px;
     background-color: white;
+    /* position: absolute; */
+    
 
 }
 #french.bar3 {
@@ -78,5 +32,239 @@ Belize (just kidding)*/
     background-color: blue;
 
 }
+#germany {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+}
+#germany.bar2 {
+    width: 900px; 
+    height: 200px;
+    background-color: #db0004;
+    position: absolute;
+}
+#germany.bar1 {
+    width: 900px; 
+    height: 200px;
+    background-color: #000000;
+    position: absolute;
 
+}
+#germany.bar3 {
+    width: 900px; 
+    height: 200px;
+    background-color: #ffd009;
+    position: absolute;
+}
+#madagascar {
+    height: 600px;
+    width: 1000px;
+    padding: 0;
+    display: inline-block;
+    position: relative; 
+}
+#madagascar.bar1 {
+    width: 200px; 
+    height: 600px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+#madagascar.bar2 {
+    width: 400px; 
+    height: 300px;
+    background-color: #fc3d32;
+    display: inline-block;
+    position: relative;
+}
+#madagascar.bar3 {
+    width: 400px; 
+    height: 300px;
+    background-color: #007e3a;
+    display: inline-block;
+    position: relative;
+}
+#switzerland {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
 
+}
+#switzerland.bar1 {
+    width: 900px; 
+    height: 200px;
+    background-color: #d52b1e;
+}
+#switzerland.bar2 {
+    width: 900px; 
+    height: 200px;
+    background-color: #ffffff;
+
+}
+#switzerland.bar3 {
+    width: 900px; 
+    height: 200px;
+    background-color: #ffd009;
+
+}
+#sweden {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+#sweden.bar1 {
+    width: 900px; 
+    height: 200px;
+    background-color: #ffc100;
+}
+#sweden.bar2 {
+    width: 900px; 
+    height: 200px;
+    background-color: #0b5089;
+
+}
+#sweden.bar3 {
+    width: 900px; 
+    height: 200px;
+    background-color: #ffd009;
+}
+#gambia {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+#gambia.bar1 {
+    width: 900px; 
+    height: 200px;
+    background-color: #ce1126;
+}
+#gambia.bar2 {
+    width: 900px; 
+    height: 200px;
+    background-color: #0d1c8c;
+
+}
+#gambia.bar3 {
+    width: 900px; 
+    height: 200px;
+    background-color: #3a7729;
+}
+#tonga {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+#tonga.bar1 {
+    width: 900px; 
+    height: 200px;
+    background-color: #c10200;
+}
+#tonga.bar2 {
+    width: 900px; 
+    height: 200px;
+    background-color: #ffffff;
+
+}
+#tonga.bar3 {
+    width: 900px; 
+    height: 200px;
+    background-color: #ffd009;
+}
+#japan {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+#japan.bar1 {
+    width: 900px; 
+    height: 200px;
+    background-color: white;
+}
+#japan.bar2 {
+    width: 900px; 
+    height: 200px;
+    background-color: #bc022d
+
+}
+#japan.bar3 {
+    width: 900px; 
+    height: 200px;
+    background-color: #ffd009;
+}
+#greece {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+#greece.bar1 {
+    width: 900px; 
+    height: 200px;
+    background-color: #0d5eaf;
+}
+#greece.bar2 {
+    width: 900px; 
+    height: 200px;
+    background-color: #ffffff;
+
+}
+#greece.bar3 {
+    width: 900px; 
+    height: 200px;
+    background-color: #ffffff;
+}
+#niger {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+#niger.bar1 {
+    width: 900px; 
+    height: 200px;
+    background-color: #e05206;
+}
+#niger.bar2 {
+    width: 900px; 
+    height: 200px;
+    background-color: #ffffff;
+
+}
+#niger.bar3 {
+    width: 900px; 
+    height: 200px;
+    background-color: #0db02b;
+}
+#maldives {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+#maldives.bar1 {
+    width: 900px; 
+    height: 200px;
+    background-color: #d20f34;
+}
+#maldives.bar2 {
+    width: 900px; 
+    height: 200px;
+    background-color: #0d5eaf;
+
+}
+#maldives.bar3 {
+    width: 900px; 
+    height: 200px;
+    background-color: #ffffff;
+}
+
+.sudan {
+      background: linear-gradient(148deg, #007229 25%, transparent 0) 0 -60px, linear-gradient(33deg, #007229 25%, transparent 0) 0 -60px, linear-gradient(to bottom, #D21034 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), black calc(100% / 3 * 2));
+      background-size: 180px 120px; 
+}    
+    
