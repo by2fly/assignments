@@ -1,5 +1,6 @@
 * {
-    box-sizing: border-box;   /* needed for ALL */
+    box-sizing: border-box;
+    font-size: 0;   /* needed for ALL */
 }
 
 .box1 {
