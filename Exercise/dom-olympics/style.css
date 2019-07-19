@@ -1,0 +1,83 @@
+/* You will complete the requirements of this assignment using JavaScript only.
+
+This is a simple messaging app. You're job is to make it interactive.
+
+Feel free to change the CSS not mentioned in the assignment if you feel so inclined.
+
+Qualifier
+Your first task is to use pure JavaScript to insert a header to the top of this page. It should look like this:
+
+Screen-Shot-2018-10-15-at-4.44.53-PM
+
+Utilize the css already written for .name and .header
+
+Notice that your name needs to be a different color. Wrapping text in a span tag is a great way to do this.
+
+Bronze
+There's some sub par conversation going on in this messaging app. You have two tasks to help give it either a clean slate, or a positive start.
+
+Write some custom JavaScript to automatically change the words of the conversation to something fun and good.
+Write some JavaScript that will wait until the user clicks the "clear" button, and then clears out all conversation.
+Silver
+Themes!
+
+Use the drop down to write some JavaScript that will notice when the drop down has changed and then changes the background colors of the messages accordingly.
+
+Feel free to edit the HTML <select> tag to make it more usable or elaborate. Mo themes, mo fun.
+
+Gold
+Be able to add more messages using the form at the bottom.
+EXTRA CREDIT
+
+Every other messaged will be posted on the right in one color, and the next on the left the other color.
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    color: peachpuff;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+#main {
+    margin: 30px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.message {
+    padding: 5px;
+}
+
+.right {
+    align-self: flex-end;
+    background-color: lightblue;
+}
+
+.left {
+    align-self: flex-start;
+    background-color: burlywood;
+}

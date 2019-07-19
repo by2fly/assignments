@@ -2,31 +2,34 @@
     box-sizing: border-box; 
     font-size: 0px;
 }
-.container > div {
-    display: grid;
-
-    color: lawngreen;
+.flex-container {
+    margin: auto;
+    color:lightblue;
 }
 
-html, body {
-    background-color: #eee9; margin: 10px;
-    }
-    * {
-        box-sizing: border-box;   /* needed for ALL */
+.items {
+    display: flex;
+    flex-direction:row;
+}
+
+body {
+    background-color: #eee9;
     }
     
     .box1 {
         height: 140px;
-        width: 796px;
+        width:  796px;
+        border: 6px white;
         background-color:  #F5C6D6;
         margin-top: 50px;
         margin-left: 0px;
-        margin-right: 25%;
+        
     }
     
     .box2  {
         height: 140px;
         width: 190px;
+        border: 6px white;
         background-color: #EE2E84;
         margin-top: 12px;
         margin-right: 12px;
@@ -36,6 +39,7 @@ html, body {
     .box3 {
         height: 140px;
         width: 190px;
+        border: 6px white;
         background-color: #EE2E84;
         margin-top: 12px;
         margin-right: 12px;
@@ -44,6 +48,7 @@ html, body {
     .box4 {
         height: 140px;
         width: 190px;
+        border: 6px white;
         background-color:  #EE2E84;
         margin-top: 12px;
         margin-right: 12px;
@@ -53,6 +58,7 @@ html, body {
     .box5 {
         height: 140px;
         width: 190px;;
+        border: 6px white;
         background-color:  #EE2E84;
         margin-top: 12px;
         margin-right: 12px;
@@ -61,6 +67,7 @@ html, body {
     .box6 {
         height: 140px;
         width: 392px;
+        border: 6px white;
         background-color:  #85CFD8;
         margin-top: 12px; 
         margin-right: 12px;
@@ -69,6 +76,7 @@ html, body {
     .box7 {
         height: 140px;
         width: 392px;
+        border: 6px white;
         background-color:  #85CFD8;
         margin-top: 12px;
         display: inline-block;
@@ -76,23 +84,32 @@ html, body {
     .box8 {
         height: 140px;
         width: 580px;
+        border: 6px white;
         background-color:  #8DC63F;
         margin-top: 12px;
         margin-right: 12px;
         display: inline-block;
     }
-    .box9 {
+    .box9 {  
         height: 140px;
         width: 204px;
+        border: 6px white;
         background-color:  #E76E34;
         margin-top: 12px;
         display: inline-block; 
     }  
 .row2 {
         display: inline;
+}
 
-
-
-
-
+@media (max-width: 768px) {
+    .items {
+       flex-direction: column;
+       width: 100vw;
+        
+    }
+    .boxes {
+        width: 100%;
+        margin: 0.5px;
+    }
 }
