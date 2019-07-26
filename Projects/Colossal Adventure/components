@@ -1,0 +1,68 @@
+Project Requirements
+1.	Console must greet player with a fun message
+2.	Console must ask for the player's name and store it
+3.	Walking:
+
+
+The console will ask the user to enter a "w" to walk
+Every time the player walks, a random algorithm will be run that determines if a wild enemy has appeared (A 1/3 or 1/4 chance of being attacked)
+
+1. If a wild enemy appears:
+
+
+The enemy is random (can be chosen out of a minimum of 3 different enemy names)
+The user can decide to attack or run
+If attacking, you will choose a random attack power between a min and max
+If running, you will choose a random number between 1 and 2 - meaning a 50% chance of escaping
+After the player attacks or runs the enemy attacks back for a random damage amount
+If the player kills the enemy you can give the Player some HP and a special item that is stored in the inventory
+If the enemy kills the player the console prints an cool death message and the game ends
+
+1. Inventory
+
+
+When the player kills enemies, they are awarded with items
+If the user enters 'Print' in the console, the console will print the players name, HP, and each item in their inventory
+*******************************************************************
+End of game is - hp<0 = dead = End of attacker
+Awards = the medal is the label "Enemy Destroyer" (3) Greed, Wrath, Sloth
+
+
+
+
+User = input
+Walk = y/n
+    if Yes, During Walk, random Enemy (3 types of Enemies) 
+
+Pride: The most powerful and dangerous of all the Enemies, according to Captain Marvel. It represents the desire of one to be more important or attractive than others.
+Envy: It represents one's jealousy over others and a desire to deprive a man of something he loves.
+Greed: It represents insatiable ambition and the desire to possess more than one needs.
+Wrath: It represents uncontrollable feelings of hatred and violence.
+Sloth: It represents laziness and apathy.
+Gluttony: It represents overindulgence and overconsumption of anything to the point of waste.
+Lust: It represents excessive desires or thoughts of sexual nature
+attack
+        Fight = y/n
+            if yes , random Attack power (min max)
+
+            if no, escape with 50/50 chance
+    if No, keep asking
+
+
+Items - coins? badges? ribbons? medals?
+
+
+
+
+//     function printAward() {
+//         if(enemy.hp <= 0) {
+//             console.log(`${playerUno} has an hp of ${playerUno.hp} and has earned the ${Person.kills} badges`)
+//         }
+//     }
+
+// let print = readline.question('Would you like to see your Game Results? Type (print)', {limit: 'print'}) {
+//     if (print === 'print') {
+//         return printAward
+//     } else {
+//         console.log(`Thanks ${name} for playing. `)
+//     }
