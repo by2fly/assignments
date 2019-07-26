@@ -1,0 +1,57 @@
+
+// JSON's Deli
+
+{
+    "appetizers": [{
+        "name": "mini-slider",
+        "ingredients": ["bread", "mayo", "mustard", "cheese slice", "lettuce"],
+        "description": "This a delightful preparation to an even more intense main course"
+    },
+    {
+        "name": "hummus",
+        "ingredients": ["chickpeas", "tahini", "olive oil"],
+        "description": "This a delightful preparation to an even more intense main course"
+    }],
+    "cold sandwiches": [{  
+        "name": "submarine sandwich",
+        "ingredients": ["bread", "lettuce", "mayo", "mustard", "cheese", "condiments"],
+        "description": "You will not believe how good this tastes on a cold day"
+    },
+    {
+        "name": "BLT sandwich",
+        "ingredients": ["bread", "lettuce", "mayo", "mustard", "bacon", "condiments"],
+        "description": "You will not believe how good this tastes."
+    }],
+    "hot sandwiches": [{
+        "name": "burger",
+        "ingredients": ["hamburger bun", "onion slice", "tomato slice", "lettuce piece","angus beef patty"],
+        "description": "This is the best Burger in Town. You will not find a better Burger."
+        },
+        {   "name": "Bigger Burger",
+            "ingredients": ["hamburger bun", "onion slice", "tomato slice", "lettuce piece","angus beef patty"],
+            "description": "This is the best Burger in Town. You will not find a bigger Burger."
+    }],
+    "desserts": [{
+        "name": "baked alaska", 
+        "ingredients": ["ice cream", "crust", "fire", "suprise"], 
+        "description": "Delicious! Have a different flavor every time you come in."
+    },
+    { 
+        "name": "cheesecake", 
+        "ingredients": ["cheese", "graham crust", "custard filling", "topping"], 
+        "description": "Delicious! Have a different flavor every time you come in."
+    }],
+    "drinks": [{
+        "name": "Martini", 
+        "ingredients": ["vodka", "gin", "olive", "lemon twist", "spear"],
+        "description": "Try one and you will be asking for more."
+    },
+    {
+        "name": "Mahgarita", 
+        "ingredients": ["taquila", "other stuff", "ice"],
+        "description": "Try one and you will be asking for more."
+    }]
+}
+
+    
+

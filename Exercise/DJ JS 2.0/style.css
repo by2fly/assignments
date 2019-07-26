@@ -1,0 +1,83 @@
+
+
+
+.square1, .square2, .square3, .square4, .square5, .square6  {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 0% 40% 2% 40%;
+    box-shadow: 5px 5px #eee9;
+    transition: width 2s, height 4s;
+
+    
+}
+
+.square1 {
+    background-color: blue;
+    transition-timing-function: linear;
+
+}
+.square1:hover {
+    background-color: #eee9;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 20px 20px purple;
+
+}
+.square2 {
+    background-color: coral;
+    transition-timing-function: ease;
+}
+.square2:hover {
+    background-color: cornflowerblue;
+    height: 400px;
+    width: 250px;
+
+}
+.square3  {
+    background-color: gold;
+    transition-timing-function: ease-in;
+
+}
+.square3:hover {
+    width: 500px;
+    position: relative;
+    background-image: linear-gradient(to right, red , yellow);
+    border-radius: 20px;
+
+}
+.square4 {
+    background-color: teal;
+    transition-timing-function: ease-out;
+}
+.square4:hover {
+    background-color: rgb(35, 53, 142);
+    box-shadow: 10px 10px black;
+    height: 350px;
+    border: 30px solidblack;
+  
+
+}
+.square5 {
+    background-color: slategrey;
+    transition-timing-function: ease-in-out;
+}
+.square5:hover{
+    background-color: gold;
+    height: 300px;
+    width: 300px;
+
+
+}
+
+.square6{
+    background-color: hotpink;
+    transition-timing-function: cubic-bezier(5,6,7,8);
+    transition-duration: 2s;
+}
+.square6:hover{
+    background-image: linear-gradient(-90deg, red, yellow);
+    filter: opacity(0.40);
+    transform: rotate(270deg);
+
+}

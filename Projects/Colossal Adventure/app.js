@@ -81,7 +81,7 @@ function attack(enemy) {     //called in func encounter
         console.log(`You hit ${enemy.name}! ${enemy.name} now has an hp of ${enemy.hp}`)
     }
     if (playerUno.hp <= 0) {
-        console.log(' Game Over, you have lost')
+        console.log(' You have been overcome by Sloth, Greed or Wrath')
         isAlive = false
         print ()
     } else {
