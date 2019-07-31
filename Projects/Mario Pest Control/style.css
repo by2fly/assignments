@@ -13,7 +13,8 @@ h3 {
 }
 
 div,
-header {
+header,
+footer {
   text-align: center;
   box-sizing: border-box
 }
@@ -38,7 +39,7 @@ input {
   border: #000000;
   padding: 10px;
   font-size: 1.2em;
-  width: 5%;
+  width: 10%;
 }
 
 input,
@@ -58,26 +59,29 @@ input::placeholder {
 }
 
 .main-footer {
-  margin-top: 15%;
+  margin-top: 0px;
   text-align: center
 }
 
-.result {
-
-  text-align: center;
-  font-size: 18pt;
-  display: block;
-  color: rgb(230, 127, 43);
-  margin: 0 0 10px;
-  /* margin-block: black;  */
-}
-
 .submit {
-  width: 100%;
+  width: 36%;
   text-align: center;
   font-size: 18pt;
   display: block;
   color: rgb(230, 127, 43);
-  margin: 0 0 10px;
+  margin: 0 40% 10px;
+  border-radius: 20px;
+
 
 }
+
+.result {
+  background-color: cyan;
+  text-align: center;
+  font-size: 18pt;
+  display: block;
+  color: rgb(230, 127, 43);
+  margin: 0px 0 700px;
+  margin-block: black; 
+}
+

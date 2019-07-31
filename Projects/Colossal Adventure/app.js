@@ -75,9 +75,9 @@ function attack(enemy) {     //called in func encounter
     while (playerUno.hp > 0 && enemy.hp > 0) {
         let enemyAttack = generateAttack(enemy)
         let heroAttack = generateAttack(playerUno)
-        playerUno.hp -= enemyAttack
+        playerUno.hp -= enemyAttack // Subtraction Asssignment: result = result - expression  x-y=x
         console.log(`${enemy.name} attacked you!!, your hp is now ${playerUno.hp}`)
-        enemy.hp -= heroAttack
+        enemy.hp -= heroAttack  // Subtraction Asssignment: result = result - expression  x-y=x
         console.log(`You hit ${enemy.name}! ${enemy.name} now has an hp of ${enemy.hp}`)
     }
     if (playerUno.hp <= 0) {
@@ -101,8 +101,6 @@ function print() {
         limit: 'print'
     })
       if (print === 'print') {
-                                //console.log('p worked')
-                                // console.log(playerUno.killed)
         countKills()
     } else {
         console.log(`Thanks ${name} for playing. `)
@@ -116,5 +114,4 @@ function countKills() {
         console.log('Sorry, you didn\'t do too well. Try again')
     }
 }
-
 
