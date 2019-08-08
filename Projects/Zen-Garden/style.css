@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box; 
+}
+
+.container {
+	position: relative;
+}
+
+
+h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 3.2em;
+
+}
+h3 {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 1.5em;
+
+}	
+h5 {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: .3em;
+
+  }
+
+.uLined {
+	text-decoration: underline dotted rgb(0, 0, 0);
+  }
+
+ body {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
+	letter-spacing: .01em;
+	margin: 10% 10%;
+	line-height: 2em;
+	color: black;
+  }
+
+  p {
+	line-height: 2em;
+
+  }

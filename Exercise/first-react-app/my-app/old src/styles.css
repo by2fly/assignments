@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+body {
+background: black;
+
+
+}
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-self: auto;
+
+
+}
+.footer-container {
+
+    
+}

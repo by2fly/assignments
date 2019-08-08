@@ -1,0 +1,29 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+ }
+h3 {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align: center;
+   font-size: 30px;
+   color: rgb(44, 25, 212);
+
+}
+
+p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align: center;
+   font-size: 25px;
+   color: #888888;
+   
+
+}
+ .title {
+   
+
+ }
+ this.props.info {
+    text-decoration: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+ }
