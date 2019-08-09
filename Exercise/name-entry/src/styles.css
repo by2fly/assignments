@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    font-size: 18px;
+}
+
+.fName .lName{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+
+
+
+
+}
+.input{
+    border: 10px solid rebeccapurple;
+
+}
+.mappedNames{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+
+
+}

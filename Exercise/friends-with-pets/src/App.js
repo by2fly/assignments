@@ -1,4 +1,5 @@
 import React from 'react';
+import FriendsList from './FriendsList';
 
 
 const App = () => {
@@ -63,8 +64,8 @@ const App = () => {
 
 return (
         <div>
-           <h1>hello</h1> 
-
+          <h1>Friends with Pets Exercise</h1> 
+          <FriendsList friends={friends}/>
         </div>
     )
 }
