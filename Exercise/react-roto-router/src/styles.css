@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.home {
+    width: 90vh;
+    height: 100vh;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    width: 100vh;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.services {
+    width: 100vh;
+    height: 100vh;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer {
+    height: 100px;
+    background-color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.nav {
+    width: 11vh;
+    display: flex;
+    background-color: cadetblue; 
+    text-decoration: none;
+}
+.nav > a {
+    text-decoration: none;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+    background-color: cadetblue;
+}
+.ul {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}

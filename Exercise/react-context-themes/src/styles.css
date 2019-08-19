@@ -1,0 +1,69 @@
+* {
+    margin: 0px;
+    padding: 10px;
+    font-family: sans-serif;
+    position: relative;
+
+
+}
+.button{
+    padding: 10px;
+    position: relative;
+    color: goldenrod;
+    background-color: rgb(173, 24, 154);
+    display: inline-block;
+    width: 20%;
+    
+    
+
+
+}
+.app {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+.footer .main .navbar {
+    position: relative;
+    padding: 10px;
+    display: block;
+    
+
+
+    
+}
+
+/* .app-light {
+    background: lightblue;
+    
+}
+.app-dark {
+    background-color: darkcyan;
+} */
+
+.navbar-light {
+    background-color: lightcoral;
+    height: 20px;
+
+}
+.navbar-dark {
+    background-color: darkolivegreen  ;
+}
+.main-light {
+    background-color: lightblue;
+    height: 300px;
+    
+}
+.main-dark {
+    background-color: darkred;
+    height: 300px;
+}
+.footer-light {
+    background-color: lightgray;
+    
+}
+.footer-dark {
+    background-color: darkorchid;
+}
